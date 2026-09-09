@@ -16,7 +16,7 @@ print("Số lượng môn học:", so_luong_mon_hoc)
 print("Mức lương tối thiểu:", MUC_LUONG_TOI_THIEU)
 import keyword
 
-# 1. Liệt kê từ khóa
+# 1. Liệt kê từ khóau
 print(keyword.kwlist)
 print("Số lượng từ khóa:", len(keyword.kwlist))
 
