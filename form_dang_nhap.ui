@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::PreventContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Đăng nhập</string>
+  </property>
+  <widget class="QLabel" name="tieu_de">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>42</y>
+     <width>368</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Chào mừng trở lại</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mo_ta">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>88</y>
+     <width>368</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Đăng nhập để tiếp tục</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="o_taikhoan">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>146</y>
+     <width>368</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tài khoản</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="o_matkhau">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>238</y>
+     <width>368</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mật khẩu</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="o_nhap_tai_khoan">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>172</y>
+     <width>368</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Nhập tài khoản của bạn</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="o_nhap_mat_khau">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>264</y>
+     <width>368</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>Nhập mật khẩu của bạn</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nut_dang_nhap">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>350</y>
+     <width>368</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Đăng nhập</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loi_nhac">
+   <property name="geometry">
+    <rect>
+     <x>56</x>
+     <y>420</y>
+     <width>368</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Thông tin đăng nhập của bạn luôn được bảo mật.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
